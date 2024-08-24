@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            width: 100%;
+            background-color: aqua;
+            overflow: auto;
+            padding: 15px;
+           font-size: 40px;
+           text-decoration: none;
+          
+        }
+        .navbar a{
+            float: left;
+            padding: 15px;
+        }
+        .navbar a:hover{
+            background-color: rgb(240, 152, 152);
+        }
+
+        /* //media screen is used for display according to screemn size */
+
+
+        @media screen and (max-width: 500px){
+            .navbar a{
+                float: none;
+            display: block;
+            
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="">home</a>
+        <a href="">about</a>
+        <a href="">contactus</a>
+        <a href="">support</a>
+    </div>
+    
+</body>
+</html>

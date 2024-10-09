@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+           
+            background-color: rgb(8, 51, 37);
+            font-size: xx-large;
+            display: grid; 
+            height: 2000px;
+            width: 90%;
+            grid-template-columns:200px 1fr 300px;
+            grid-template-rows: 140px 1fr 200px;
+            row-gap: 20px;
+            column-gap: 15px;
+        }
+        .item{
+            background-color: rgb(233, 150, 150);
+            border: 1px solid white;
+            margin: 10px;padding: 15px;
+            text-align: center;
+            
+
+        }
+        .header{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .footer{grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="item header">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur rem rerum iure illum vitae quas ducimus id, cumque dolores.</div>
+
+        <div class="item"><img src="images/2020_04_bulgaria-hd-4k-minimalist-iphone-android.jpg" height="100px" width="100px"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim velit corrupti est doloribus? Odio doloribus voluptas quo. Reiciendis, inventore deserunt! </div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis quisquam consequuntur doloribus in tenetur? Nesciunt illum, officiis accusamus quia amet exercitationem, obcaecati voluptatibus labore id error, veritatis sit neque. Soluta asperiores labore rerum accusantium libero. Vero repellat quaerat tempora a sint et magni ducimus, corrupti voluptatum explicabo libero sunt ipsam modi sit commodi nemo debitis maiores perspiciatis? Quod dolorum nisi at iure amet optio repellendus accusamus vel iste esse ex, expedita sapiente ullam et cupiditate consequatur placeat! Eum dolorem adipisci maxime, magnam quibusdam amet corporis magni, aliquid, ad nemo praesentium. Culpa ipsam saepe temporibus labore ullam ab praesentium aspernatur.</div>
+        <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam voluptates possimus aliquam doloremque ad rerum veritatis corrupti deleniti, numquam placeat vero iure facilis sed! Quasi?</div>
+        <div class="item footer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, fugiat.</div>
+    </div>
+    
+</body>
+</html>

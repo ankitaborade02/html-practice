@@ -1,0 +1,128 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            background-color: rgb(237, 199, 149);
+            border: 1px solid black;
+        }
+        .dropdown{
+            background-color:rgb(181, 135, 224);
+            display: inline-block;
+        }
+        .hovereffect{
+            background-color: chartreuse;
+            border: 2px solid blue;
+            display: none;
+        }
+        .dropdown:hover .hovereffect{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="dropdown">
+            <span>services</span>
+            <div class="hovereffect">
+                <p>After Hover</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+             background-color: rgb(139, 24, 88); 
+
+        }
+        ul{
+            list-style-type: none;
+            padding: 10px;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            text-decoration: none;
+            padding: 15px;
+            background-color: bisque;
+            color: black;
+            border: 1px solid black;
+            margin: 5px;
+        }
+        li.dropdown{
+            display:inline-block;
+
+
+
+
+        }
+        .dropdown-content{
+             display: none;  
+            position: absolute;
+
+        }
+        .dropdown-content a{
+            background-color: rgb(233, 112, 112);
+            color: black;
+            border: 2px solid black;text-decoration: none;
+            display: block;
+            margin-top: 15px;
+            padding: 15px;
+            text-align: left;
+        }
+        li a:hover{
+            background-color: rgb(38, 158, 118);
+            color: blue;
+
+        }
+        li.dropdown a.dropbtn:hover{
+            background-color: chartreuse;
+
+        }
+        li.dropdown:hover .dropdown-content{
+            display: block;
+        }
+        li.dropdown a.dropbtn{
+            background-color: cornflowerblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul>
+            <li><a href="" target="_blank" >Home</a></li>
+            <li><a href="" target="_blank">Menu</a></li>
+            <li class="dropdown"><a href="" target="_blank"
+                 class="dropbtn">Sale</a>
+                <div class="dropdown-content">
+                    <a href="">electronic Sale</a>
+                    <a href="">home and furniture</a>
+                    <a href="">bookstore</a>
+                </div>
+            
+            
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>

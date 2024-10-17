@@ -1,0 +1,114 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: antiquewhite;
+            border: 1px solid black;
+            height: 100px;
+            width: 200px;
+            /* text-align: center;
+            font-size: x-large; */
+            animation-name: arrow;
+            animation-duration: 3s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            animation-fill-mode: forwards;
+            animation-direction: alternate-reverse;
+            /* animation-range-end: ;
+            animation-range-start: ; */
+        }
+        
+        @keyframes arrow {
+            /* from{background-color: rgb(1, 8, 20); color: white;}
+            to{background-color: rgb(247, 98, 12); color: white;} */
+            0% {
+                background-color: aquamarine;
+                left: 0;
+                top: 0;
+            }
+            25% {
+                background-color: blueviolet;
+                left: 200px;
+                top: 0;
+            }
+            50% {
+                background-color: brown;
+                left: 200px;
+                top: 200px;
+            }
+            75% {
+                background-color: rgb(54, 3, 14);
+                left: 0;
+                top: 200px;
+            }
+            100% {
+                background-color: chartreuse;
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        this is animation tag
+    </p>
+
+</body>
+
+</html>
+
+
+
+
+image animation -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 300px;
+            width: 700px;
+            animation-name: images;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+            /* border: 1px solid black; */
+            animation-delay: 3S;
+            animation-direction: reverse;
+            animation-play-state: played;
+        }
+        
+        @keyframes images {
+            0% {
+                left: 0;
+                top: 0;
+            }
+            100% {
+                left: 700px;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/pexels-itfeelslikefilm-2858265.jpg">
+</body>
+
+</html>

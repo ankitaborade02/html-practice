@@ -1,0 +1,118 @@
+
+<!-- //vertical navigation bar -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+           background-color: rgb(240, 132, 132);
+           width: 20%;
+           padding: 20px;
+           text-align: center;
+           height: 300px;
+          
+        }
+         a:hover{
+            background-color: rgb(159, 221, 221);
+            color: black;
+        }
+        nav  a{
+            padding: 20px;
+            margin: 15px;
+            text-decoration: none;
+            display: block;
+            background-color: bisque;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <nav> 
+        <a href="home.html" target="_blank"> Home</a>
+        <a href="About.html" target="_blank"> AboutUs</a>
+        <a href="contactus.html" target="_blank"> ContactUs</a>
+        <a href="feedback.html" target="_blank"> feedback</a>
+
+    </nav>
+
+   
+
+    
+</body>
+</html>  -->
+
+
+
+<!-- //horizontal navigation bar -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            background-color: rgb(192, 240, 146);
+            list-style-type:none;
+            margin: 10px;
+            padding: 10px;
+            overflow: hidden;
+            /* position: fixed; */
+            border: 1px solid black;
+            top: 0;
+            position: sticky;
+        
+        }
+        .heading{
+            padding-top:50px ;
+        }
+
+        li{
+             float: left;              
+        }
+
+        li a{
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        li a:hover{
+            background-color: antiquewhite;
+            color: black;
+
+        }
+        body{
+            height: 1000px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="home.html" class="">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="contactus.html">Contactus</a></li>
+        <li><a href="feedback.html">feedback</a></li>
+    </ul>
+    <div class="heading">
+        <h1>this is example of html and css</h1>
+        <h2>welcome to website</h2>
+        <h3>this is fixed navigation bar</h3>
+    </div>
+    
+</body>
+</html>
+
+ <!-- // we have to apply css and ul code in remaining linked pages like home.html,about.html,contactus.html,...so we get result in horizontal. --> 
+
+<!-- //if we remove the float property it give the vertical navigation bar result -->

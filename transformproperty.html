@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .transform{
+            transform: rotate(260deg);
+        }
+
+        .translate{
+            transform:translate(70%,0);
+        }
+        .scale{
+            height: 100px;
+            width: 200px;
+            transform: scale(2,3);
+            margin-left: 200px;
+            margin-top: 60px;
+        }
+        .skew{
+            transform: skew(20deg, 10deg);
+        }
+        .matrix{
+            transform: matrix(1, 0, 0.5, 1, 150, 0);
+        }
+    </style>
+</head>
+<body>
+    <p class="transform">this is rotate property</p>
+    <p class="translate"> this is translate property</p>
+    <p class="scale">this is scale property</p>
+    <p class="skew"> this is skew property</p>
+    <p class="matrix"> this is matrix property</p>
+</body>
+</html>

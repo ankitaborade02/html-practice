@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid black;
+            height: 40px;
+            width: 90px;
+            margin: 40px;
+            text-align: center;
+            background-color: rgb(241, 137, 222);
+            position: relative;
+            animation: speed 3s infinite;
+        }
+
+        @keyframes speed {
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: 500px;
+            }
+        }
+
+        .a1 {
+            animation-timing-function: linear;
+        }
+
+        .a2 {
+            animation-timing-function: ease;
+        }
+
+        .a3 {
+            animation-timing-function: ease-in;
+        }
+
+        .a4 {
+            animation-timing-function: ease-out;
+        }
+
+        .a5 {
+            animation-timing-function: ease-in-out;
+        }
+
+        .a6 {
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        .a7 {
+            animation-timing-function: steps(6, jump-start);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a1">linear</div>
+    <div class="a2">ease</div>
+    <div class="a3">ease-in</div>
+    <div class="a4">ease-out</div>
+    <div class="a5">easein-out</div>
+    <div class="a6">cubic</div>
+    <div class="a7">steps</div>
+</body>
+
+</html>
